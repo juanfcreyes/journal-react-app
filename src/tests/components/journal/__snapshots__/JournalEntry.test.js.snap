@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre JournalEntry Debe mostrarse correctamente 1`] = `
+<div
+  className="journal__entry pointer animate__animated animate__fadeIn"
+  onClick={[Function]}
+>
+  <div
+    className="journal__entry-body"
+  >
+    <p
+      className="journal__entry-title"
+    >
+      Titulo
+    </p>
+    <p
+      className="journal__entry-content"
+    >
+       
+      cuerpo
+       
+    </p>
+  </div>
+  <div
+    className="jorunal__entry-date-box"
+  >
+    <span>
+      Saturday
+    </span>
+    <h4>
+      23
+    </h4>
+  </div>
+</div>
+`;

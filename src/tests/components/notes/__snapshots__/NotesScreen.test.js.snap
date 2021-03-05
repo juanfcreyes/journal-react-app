@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre NotesScreen Debe de mostrarse correctamente 1`] = `
+<div
+  className="notes__main-content animate__animated animate__fadeIn"
+>
+  <div
+    className="notes__appbar"
+  >
+    <span>
+      Saturday 23 May 1970
+    </span>
+    <input
+      id="file_input"
+      name="file_input"
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="file"
+    />
+    <div>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        picture
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Save
+      </button>
+    </div>
+  </div>
+  <div
+    className="notes__content"
+  >
+    <input
+      autoComplete="off"
+      className="notes__title-input"
+      name="title"
+      onChange={[Function]}
+      placeholder="Some awesome title"
+      type="text"
+      value="Titulo"
+    />
+    <textarea
+      className="notes__textarea"
+      name="body"
+      onChange={[Function]}
+      placeholder="What happend today"
+      value="cuerpo"
+    >
+       
+    </textarea>
+  </div>
+  <button
+    className="btn btn-danger"
+    onClick={[Function]}
+  >
+    Delete 
+  </button>
+</div>
+`;
